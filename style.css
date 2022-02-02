@@ -1,0 +1,84 @@
+/* color and font styles */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header, .footer, .top {
+  background-color: #1f2937;
+}
+
+.top .top-left h1  {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.top .top-left p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+ol {
+  list-style: none;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.bottom .call button {
+  /* add white border to 2nd button */
+  border: 3px solid #f9faf8;
+}
+
+.call {
+  background-color: #3882f6;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937
+}
+
+.bottom {
+  background-color: #e5e7eb;
+}
+
+blockquote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.footer {
+  color: #f9faf8;
+}
+
+/* flex
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+*/
