@@ -44,6 +44,11 @@ button {
   border: 3px solid #f9faf8;
 }
 
+.placeholder {
+  background-color: #888;
+  color: white;
+}
+
 .call {
   background-color: #3882f6;
 }
@@ -69,16 +74,54 @@ blockquote {
   color: #f9faf8;
 }
 
-/* flex
-
+/* body flex */
 body {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
+/* header arrangment */
 .header {
   display: flex;
   align-items: center;
 }
 
-*/
+ol {
+  margin-left: auto;
+  display: flex;
+  margin-right: 160px;
+}
+
+li {
+  margin-left: 24px;
+}
+
+.header-logo {
+  margin-left: 160px;
+}
+
+/* top arrangment */
+.top {
+  display: flex;
+}
+
+.top div {
+  width: 50%;
+}
+
+.top-left, .top-right {
+  padding: 90px 0px;
+}
+
+.top-left h1, p, button {
+  margin: 0px 40px 0px 160px;
+}
+
+.top div .placeholder {
+  width: 450px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
